@@ -14,7 +14,7 @@ void main() {
     if (n <= 0) {
       print('Valor inválido!, tente novamente!');
     } else {
-      // Variável soma recebe o valor inteiro que retorna da função somatoria_valrores()
+      // Variável soma recebe o valor inteiro que retorna da função somatoria_valores()
       int soma = somatoria_valores(n);
 
       // print que apresenta o valor que está armazenado na variável soma
@@ -32,7 +32,7 @@ void main() {
 int somatoria_valores(int valor) {
   int soma = 0;
   for (int i = valor - 1; i > 0; i--) {
-    // Esta função verifica se o os numeros positivos inferiores ao parametro passado para ela são divisiveis ou não por 3 e 5
+    // Esta função verifica se os numeros positivos inferiores ao parametro passado para ela são divisiveis por 3 ou 5
     if ((i % 3 == 0) || (i % 5 == 0)) {
       // Se forem divisiveis eles são somados a uma variavel soma que é inicializada com o valor 0
       soma += i;

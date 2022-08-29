@@ -8,4 +8,4 @@ encontra o arquivo main.dart;
 
 -> Verifique se está na pasta do arquivo main.dart digitando "ls" no terminal
 
--> Para executar o programa digite "dart run main.dart" e divirta-se :)
+-> Para executar o programa digite "dart run main.dart" no terminal e divirta-se :)
